@@ -23,10 +23,11 @@ class MakeModule extends Command
         $directories = [
             "{$basePath}/Application",
             "{$basePath}/Application/Commands",
-            "{$basePath}/Application/Handlers",
+            "{$basePath}/Application/Handler",
 
             "{$basePath}/Domain",
             "{$basePath}/Domain/Model",
+            "{$basePath}/Domain/Repository",
 
             "{$basePath}/Infrastructure",
             "{$basePath}/Infrastructure/Repository",
