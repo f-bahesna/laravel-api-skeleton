@@ -1,0 +1,4 @@
+create_acme:
+  methods: POST
+  path: create
+  command: CreateAcme
