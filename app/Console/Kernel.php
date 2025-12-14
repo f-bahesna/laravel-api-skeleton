@@ -10,7 +10,6 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 class Kernel extends ConsoleKernel
 {
     protected $bootstrappers = [
-        \App\Boostrap\LoadConfiguration::class
     ];
 
     protected $commands = [
